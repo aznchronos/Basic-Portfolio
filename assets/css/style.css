@@ -1,17 +1,60 @@
-
-img {
-    float: center;
+.about-me {
+    float: left;
     margin: 0 1.5%;
-    width: 30%;
-}
-
-aside {
-    float: right;
-    margin: 0 1.5%;
+    position: absolute;
+    left: 5%;
     width: 30%;
 }
 
 a {
     float: right;
     width: 10%;
+}
+
+.intro {
+    width: 40%;
+    position: relative;
+    top: 20%;
+    left: 40%;
+    text-align: left;
+}
+
+.box {
+    background-color: white;
+    width: 20%;
+    height: 10%;
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    padding: 25px 25px 25px 25px;
+    border-style: groove;
+    border-width: 20px;
+    border-color: lightcyan;
+    position: relative;
+    top: 10%;
+    left: 30%;   
+}
+
+body {
+    font-family: helvetica;
+}
+
+.about {
+    position: relative;
+    left: 40%;
+}
+
+.portfolio-header {
+    font-family: Bookman;
+    font-size: 75px;
+    position: static;
+    left: 500px;
+    
+}
+.portfolio-under {
+    font-family: arial;
+    font-size: 25px;
+    position: static;
+    left: 500px;
 }
