@@ -1,22 +1,28 @@
 .about-me {
     float: left;
-    margin: 0 1.5%;
-    position: absolute;
-    left: 5%;
-    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    width: 40%;
 }
 
 a {
     float: right;
     width: 10%;
+    background: white;
 }
 
 .intro {
     width: 40%;
-    position: relative;
+    /* position: relative;
     top: 20%;
-    left: 40%;
+    left: 40%; */
     text-align: left;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: lightcyan;
+    float: right;
 }
 
 .box {
@@ -57,4 +63,13 @@ body {
     font-size: 25px;
     position: static;
     left: 500px;
+}
+
+html {
+    background-color: paleturquoise;
+}
+
+.margin {
+    margin: 0 auto;
+    width: 960px;
 }
