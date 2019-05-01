@@ -26,12 +26,45 @@
 
     <!--Name-->
     <div class="box"<h1>Andy Ren</h1></div>
+    
+    <!--boxed information-->
+    <div class="intro">
+        <h2 class="about">Contact</h2>
 
-    <h1>Contact Information:</h1>
-    <img src="assets/images/Portfolio-contact.png">
-    <li>Name: Andy Ren</li>
-    <li>Phone Number: ###-###-####</li>
-    <li>Email: #####@#####.com</li>
+        <!--to divide the "About Me" and Profile Picture-->
+        <div class="line">
+        </div>
+        <br>
+        <!--contact input-->
+        <form action="process.php" method="POST">
+            <div>
+                <label>Name</label>
+                <!--Name Input for Invisibility... Surprise!-->
+                <input type="text" size="135" name="FullName" value="John Smith"
+                onblur="if(this.value==''){ this.value='John Smith'; this.style.color='#BBB';}"
+                onfocus="if(this.value=='John Smith'){ this.value=''; this.style.color='#000';}"
+                style="color:#BBB;">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <!--Email Input for Invisibility...Surprisex2?-->
+                <!--don't get me in trouble for that last Surprise <3 -->
+                <input type="email" size="135" name="email" value="example@gmail.com"
+                onblur="if(this.value==''){ this.value='example@gmail.com'; this.style.color='#BBB';}"
+                onfocus="if(this.value=='example@gmail.com'){ this.value=''; this.style.color='#000';}"
+                style="color:#BBB;" />
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea rows="10" cols="122" name="message"></textarea>
+            </div>
+            <br>
+            <input class="submit" type="submit" name="submit" value="Submit">
+        </form>
+    </div>
+    
 
 </div>
 </div>
