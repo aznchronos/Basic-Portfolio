@@ -1,10 +1,3 @@
-.about-me {
-    float: left;
-    margin: 0 auto;
-    position: relative;
-    width: 40%;
-}
-
 a {
     float: right;
     width: 10%;
@@ -18,19 +11,34 @@ a {
     background-color: white;
 }
 
-.intro {
+body {
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: lightgrey;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* It's all about that Class bout that Class */
+.about {
     position: relative;
-    top: 50px;
-    text-align: left;
-    background-color: white;
-    padding: 20px 20px 20px 20px;
-    border-style: groove;
-    border-width: 5px;
-    border-color: lightcyan;
-    float: right;
-    width: 910px;
-    
-    
+    font-size: 30px;
+    font-family: Georgia;
+    color: turquoise;
+}
+
+.about-me {
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    width: 40%;
 }
 
 .box {
@@ -48,28 +56,20 @@ a {
     border-width: 20px;
     border-color: turquoise;
     position: relative;
-    top: 35px;
     
 }
 
-body {
-    font-family: helvetica;
-}
-
-.about {
+.intro {
     position: relative;
-    font-size: 30px;
-    font-family: Georgia;
-    color: turquoise;
-}
-
-html {
-    background-color: lightgrey;
-}
-
-.margin {
-    margin: 0 auto;
-    width: 960px;
+    top: 40px;
+    text-align: left;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: lightcyan;
+    float: right;
+    width: 910px;   
 }
 
 .line {
@@ -79,10 +79,15 @@ html {
     margin-bottom: 20px;
 }
 
-.profile-pic {
-    float: left;
-    padding-top: 15px;
-    padding-right: 30px;
+.margin {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.port-example {
+    width: 300px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .profile-bio {
@@ -90,13 +95,10 @@ html {
     font-size: 20px;
 }
 
-.upper-lip {
-    border: solid;
-    color: white;
-    background-color: white;
-    padding: 10px 725px 150px 725px;
-    position: absolute;
-    float: center;
+.profile-pic {
+    float: left;
+    padding-top: 15px;
+    padding-right: 30px;
 }
 
 .submit {
@@ -106,8 +108,26 @@ html {
     height: 50px;
 }
 
-.port-example {
-    width: 300px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+.upper-lip {
+    border-bottom: solid;
+    border-width: 4px;
+    color: #e0e0e0;
+    background-color: white;
+    position: absolute;
+    height: 130px;
+    width: 100%;
+    /* float: center; */
+}
+
+.lower-lip {
+    border-top: solid;
+    border-width: 4px;
+    color: #e0e0e0;
+    background-color: dimgrey;
+    position: fixed;
+    height: 35px;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 15px;
 }
