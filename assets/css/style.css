@@ -8,38 +8,46 @@
 a {
     float: right;
     width: 10%;
-    background: white;
+    positioN: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 20px;
+    border: ridge;
+    border-width: 5px;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
 }
 
 .intro {
-    width: 40%;
-    /* position: relative;
-    top: 20%;
-    left: 40%; */
+    position: relative;
+    top: 50px;
     text-align: left;
     background-color: white;
     padding: 20px 20px 20px 20px;
     border-style: groove;
-    border-width: 10px;
+    border-width: 5px;
     border-color: lightcyan;
     float: right;
+    
+    
 }
 
 .box {
-    background-color: white;
-    width: 20%;
+    background-color: turquoise;
+    width: 25%;
     height: 10%;
-    margin: 10px 30px 10px 30px;
     text-align: center;
-    font-size: 25px;
-    color: black;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
     padding: 25px 25px 25px 25px;
     border-style: groove;
     border-width: 20px;
-    border-color: lightcyan;
+    border-color: turquoise;
     position: relative;
-    top: 10%;
-    left: 30%;   
+    top: 35px;
+    
 }
 
 body {
@@ -48,7 +56,8 @@ body {
 
 .about {
     position: relative;
-    left: 40%;
+    font-size: 30px;
+    color: turquoise;
 }
 
 .portfolio-header {
@@ -66,10 +75,37 @@ body {
 }
 
 html {
-    background-color: paleturquoise;
+    background-color: lightgrey;
 }
 
 .margin {
     margin: 0 auto;
     width: 960px;
+}
+
+.line {
+    border: solid;
+    border-width: 1px;
+    
+    background-color: black;
+}
+
+.profile-pic {
+    float: left;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+.profile-bio {
+    line-height: 1.7em;
+    font-size: 20px;
+}
+
+.upper-lip {
+    border: solid;
+    color: white;
+    background-color: white;
+    padding: 10px 725px 150px 725px;
+    position: absolute;
+    float: center;
 }
