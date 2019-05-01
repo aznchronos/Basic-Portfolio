@@ -61,20 +61,6 @@ body {
     color: turquoise;
 }
 
-.portfolio-header {
-    font-family: Bookman;
-    font-size: 75px;
-    position: static;
-    left: 500px;
-    
-}
-.portfolio-under {
-    font-family: arial;
-    font-size: 25px;
-    position: static;
-    left: 500px;
-}
-
 html {
     background-color: lightgrey;
 }
@@ -88,7 +74,7 @@ html {
     border: solid;
     border-width: 1px;
     background-color: black;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .profile-pic {
@@ -116,4 +102,10 @@ html {
     color: white;
     width: 100px;
     height: 50px;
+}
+
+.port-example {
+    width: 300px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
