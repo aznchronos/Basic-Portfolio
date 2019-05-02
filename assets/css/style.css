@@ -75,7 +75,8 @@ footer {
 .line {
     border: solid;
     border-width: 1px;
-    background-color: black;
+    background-color: lightgrey;
+    color: lightgrey;
     margin-bottom: 20px;
 }
 
