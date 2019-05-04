@@ -205,3 +205,12 @@ footer {
     color: white;
     background-color: turquoise;
 }
+
+#divider {
+    border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
